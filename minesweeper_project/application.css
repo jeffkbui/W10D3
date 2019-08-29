@@ -1,0 +1,40 @@
+.unexplored {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  border-style: inset;
+  border-style: outset;
+  
+}
+.explored {
+  width: 25px;
+  height: 25px;
+  background-color:lightgray;
+  border-style: inset;
+  border-style: outset;
+  
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.flagged {
+  width: 25px;
+  height: 25px;
+  background-color:lightseagreen;
+  border-style: inset;
+  border-style: outset;
+  
+}
+
+.bombed {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-style: inset;
+  border-style: outset;
+  
+}
